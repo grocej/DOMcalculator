@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4">
+
+            <h3>Pick a Number...</br> Any Number.</h3>
+
+            <input type="text" id="num_one" />
+            <br /><br />
+                <div class="btn btn-lg btn-success" role="group" id="Add" aria-label="...">+</div>
+                <div class="btn btn-lg btn-success" role="group" id="Subtract" aria-label="...">-</div>
+                <div class="btn btn-lg btn-success" role="group" id="Multiply" aria-label="...">*</div>
+                <div class="btn btn-lg btn-success" role="group" id="Divide" aria-label="...">/</div>
+              <br /><br /><input type="text" id="num_two" />
+            <br />
+            <!--<input type="submit" value="Calculate" id="calculateBtn" />-->
+
+            <div class="answer">
+              <br /><br />
+                <span id="answer"></span>
+            </div>
+        <script type="text/javascript" src="bower_components/underscore/underscore.js"> </script>
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
+        <script type="text/javascript" src="bower_components/bootstrap.js"> </script>
+        <script type="text/javascript" src="main.js"></script>
+
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+</body>
+</html>
